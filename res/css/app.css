@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@font-face {
+  font-family: "TumblingDice";
+  src: url("res/fonts/TumblingDice.ttf");
+}
+
+@font-face {
+  font-family: "Alise";
+  src: url("res/fonts/Alise.ttf");
+}
+
+@font-face {
+  font-family: "CinemaGothic";
+  src: url("res/fonts/CinemaGothic.ttf");
+}
+
+@font-face {
+  font-family: "Outlaw";
+  src: url("res/fonts/Outlaw.ttf");
+}
+
+@font-face {
+  font-family: "StoneCold";
+  src: url("res/fonts/StoneCold.ttf");
+}
+
+@font-face {
+  font-family: "TrueNorth";
+  src: url("res/fonts/TrueNorth.ttf");
+}
+a{
+	color: #283593;
+	text-decoration: none;
+}
+h3{
+	margin-top: 12px;
+}
+*{
+	margin:0px;
+}
+body{
+	background-color: #212529;
+	font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-radius: 50px;
+	background: linear-gradient(145deg, #1e2125, #23282c);
+	box-shadow:  20px 20px 60px #1c1f23,
+	             -20px -20px 60px #262b2f;
+}
+
+.main_area {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.bar_left, .bar_right {
+	width: 30%;
+	height: 100vh;
+	background: #ffffff;
+}
+
+.bar_top {
+	width: 100%;
+	height: 3.5rem;
+	position: absolute;
+	border-bottom-left-radius: 100%;
+	border-bottom-right-radius: 100%;
+	z-index: 2;
+	background: linear-gradient(145deg, 	#fac400, #1e2125);
+	box-shadow:  5px 5px 11px #0d0f10,
+	             -5px -5px 11px #353b42;
+}
+
+.bar__left {
+	width: 3.5rem;
+	height: 100vh;
+	position: absolute;
+	border-top-right-radius: 100%;
+	z-index: 1;
+	background: linear-gradient(45deg, #23282c, #1e2125);
+	box-shadow:  -5px -5px 11px #0d0f10,
+	             -5px -5px -11px #353b42;
+}
+
+.bar__right {
+	width: 3.5rem;
+	height: 100vh;
+	right: 0.01rem;
+	position: absolute;
+	border-top-left-radius: 100%;
+	z-index: 1;
+	background: linear-gradient(225deg, #23282c, #1e2125);
+	box-shadow:  5px -5px 11px #0d0f10,
+	             5px 5px 11px #353b42;
+}
+
+.bar_bottom {
+	width: 100%;
+	height: 3rem;
+	position: absolute;
+	bottom: 0.01rem;
+	z-index: -0.5;
+	background: linear-gradient(315deg, #23282c, #1e2125);
+	box-shadow:  -5px -5px 11px #0d0f10,
+	             5px 5px 11px #353b42;
+}
+main{
+	border-radius: 5px;
+	background-image: url(res/patts/pat_6.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-position-x: center;
+	background-position-y: top;
+	position: relative;
+	background-size: cover;
+	margin-top: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: calc((100% - 580px) / 2);
+	width: 550px;
+}
+section#status{
+	margin-bottom: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 25px;
+	font-family: 'StoneCold', monospace;
+	box-shadow:  1px 1px 30px #6e6e6e,
+	             -1px -1px 3px #ffffff;
+}
+section#Slots{
+	border-radius: 15px;
+	border-style: groove;
+	background: #121212;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow:  1px 1px 30px #6e6e6e,
+	             -1px -1px 3px #ffffff;
+	/*
+	background-image: url(res/patts/pat_4.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-position-x: center;
+	background-position-y: top;
+	position: relative;
+	background-size: cover;
+	width: 100%;
+	z-index: 2;
+	*/
+}
+section#Gira{
+	margin-top: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 5px;
+	text-align: center;
+	color: #EF0A61;
+	font-size: 25px;
+	font-family: CinemaGothic;
+	cursor: pointer;
+	border-radius: 19px;
+	background: linear-gradient(145deg, #000000, #000000);
+	box-shadow:  1px 1px 30px #6e6e6e,
+	             -1px -1px 3px #ffffff;
+}
+section#Gira:hover{
+	background-color: #BA68C8;
+}
+section#options{
+	width: 100%;
+	height: auto;
+	display: flex;
+	padding-top: 10px;
+	padding-bottom: 6px;
+	flex-wrap: wrap;
+	justify-content: left;
+	margin-top: 20px;
+	padding-top: 5px;
+	border-radius: 5px;
+	color: #FFFFFF;
+	border-radius: 0px;
+	background: linear-gradient(145deg, #050322, #050329);
+	box-shadow:  19px 19px 38px #020113,
+	             -1px -1px 38px #080539;
+}
+.option{
+	padding-left: 5px;
+}
+
+.option button {
+	width: 100px;
+	height: 35px;
+	margin-top: 10px;
+	cursor: pointer;
+	font-size: 18px;
+	font-family: Cambria;
+	background: #064126;
+	color: #ffffff;
+	border: none;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.6);
+}
+
+.option button:hover, .option:nth-child(4) button:hover {
+	background: linear-gradient(160deg, #000000, #EF0A61);
+}
+
+.option:nth-child(4) button {
+	width: 130px;
+	background: #3a1903;
+}
+
+.option:nth-child(2) {
+	width: 10%;
+}
+
+i.bx {
+	font-size: 40px;
+	line-height: 50px;
+	cursor: pointer;
+}
+
+.option:nth-child(3) {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.option:nth-child(3) div:first-child {
+	padding: 10px;
+	border-radius: 0px;
+	background: linear-gradient(145deg, #000000, #000000);
+	box-shadow:  19px 19px 38px #020208,
+	             -19px -19px 38px #06061a;
+}
+
+.option:nth-child(3) div:first-child span {
+	font-size: 30px;
+	font-family: CinemaGothic;
+	line-height: 34px;
+}
+
+section#info{
+	background-color: #616161;
+	padding-left: 12px;
+	padding-bottom: 12px;
+	border-radius: 5px;
+	overflow: hidden;
+	animation-duration: 1s;
+	color: #BDBDBD;
+	margin-top: 50px;
+	margin-left: 30%;
+	margin-right: 30%;
+	display: none;
+}
+
+#slot1, #slot2, #slot3{
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-size: 150px;
+	width: 146px;
+	height: 150px;
+	box-shadow:  1px 1px 3px #6e6e6e,
+	             -1px -1px 1px #880000;
+}
+#Slots div:first-child {
+	margin-left: 20px;
+}
+.a1{
+	background-image: url("../tiles/Plebe_1.jpg");
+}
+.a2{
+	background-image: url("../tiles/Plebe_2.jpg");
+}
+.a3{
+	background-image: url("../tiles/Plebe_3.jpg");
+}
+.a4{
+	background-image: url("../tiles/P.jpg");
+}
+.a5{
+	background-image: url("../tiles/L.jpg");
+}
+.a6{
+	background-image: url("../tiles/E.jpg");
+}
+.a7{
+	background-image: url("../tiles/B.jpg");
+}
