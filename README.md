@@ -1,2 +1,0 @@
-# slot_machine
- (JRG)

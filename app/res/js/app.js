@@ -43,6 +43,7 @@ function doSlot(){
 			return null;
 		}
 		slotTile = document.getElementById("slot1");
+		slotTile = document.getElementById("slot4");
 		if (slotTile.className=="a7"){
 			slotTile.className = "a0";
 		}
@@ -56,6 +57,7 @@ function doSlot(){
 			return null;
 		}
 		slotTile = document.getElementById("slot2");
+		slotTile = document.getElementById("slot5");
 		if (slotTile.className=="a7"){
 			slotTile.className = "a0";
 		}
@@ -70,6 +72,7 @@ function doSlot(){
 			return null;
 		}
 		slotTile = document.getElementById("slot3");
+		slotTile = document.getElementById("slot6");
 		if (slotTile.className=="a7"){
 			slotTile.className = "a0";
 		}
