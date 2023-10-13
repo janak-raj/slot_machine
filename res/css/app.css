@@ -45,10 +45,6 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
-#window {
-	display: none;
-}
-
 .wrapper {
 	width: 100%;
 	display: flex;
@@ -273,7 +269,7 @@ section#info{
 	display: none;
 }
 
-#slot1, #slot2, #slot3, #slot4, #slot5, #slot6{
+#slot1, #slot2, #slot3{
 	display: inline-block;
 	margin-top: 5px;
 	margin-left: 10px;
